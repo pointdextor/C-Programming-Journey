@@ -57,7 +57,7 @@ int main()
     float gccontent = gcContent(dna);
     float atcontent = atContent(dna);
 
-    printf("Length of DNA sequence: %d\n", length);
+    printf("Length of this DNA sequence: %d\n", length);
     printf("A: %d\n", countBase(dna,'A'));
     printf("T: %d\n", countBase(dna,'T'));
     printf("G: %d\n", countBase(dna,'G'));
