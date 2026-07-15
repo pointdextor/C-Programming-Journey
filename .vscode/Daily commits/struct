@@ -1,0 +1,16 @@
+struct Student
+{
+    char name[30];
+    int age;
+};
+
+int main()
+{
+    struct Student s1;
+
+    s1.age = 18;
+
+    printf("%d", s1.age);
+
+    return 0;
+}
